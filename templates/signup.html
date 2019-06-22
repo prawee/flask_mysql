@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Python Flask Bucket List App</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <!--<div class="header">-->
+        <!--<nav>-->
+          <!--<ul class="nav nav-pills pull-right">-->
+            <!--<li role="presentation" ><a href="main">Home</a></li>-->
+            <!--<li role="presentation"><a href="#">Sign In</a></li>-->
+            <!--<li role="presentation" class="active"><a href="#">Sign Up</a></li>-->
+          <!--</ul>-->
+        <!--</nav>-->
+        <!--<h3 class="text-muted">Python Flask App</h3>-->
+      <!--</div>-->
+        <div class="header">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login">Log In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/signup">Sign Up</a>
+              </li>
+            </ul>
+        </div>
+
+      <div class="jumbotron">
+        <h1>Bucket List App</h1>
+        <form action="/saveSignup" method="post">
+          <div class="form-group">
+            <label for="name">Email address</label>
+            <input type="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="username" class="form-control" id="username" placeholder="Username">
+          </div>
+          <div class="form-group">
+              <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </form>
+      </div>
+
+
+
+      <footer class="footer">
+        <p>&copy; Company 2015</p>
+      </footer>
+
+    </div>
+  </body>
+</html>
