@@ -7,7 +7,8 @@ app = Flask(__name__)
 # defind router
 @app.route("/")
 def main():
-  return "Welcome!"
+  # return "Welcome!"
+  return render_template('index.html')
 
 # run
 if __name__ == "__main__":
